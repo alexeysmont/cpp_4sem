@@ -1,0 +1,6 @@
+Dasha 3
+Egor 2
+Liana 1
+Matvey 2
+Sasha 1
+Slava 0
