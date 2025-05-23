@@ -22,7 +22,6 @@ int main()
             }
             else if (const auto* keyPressed = event->getIf<sf::Event::MouseButtonPressed>())
             {
-                std::cout << "the left button was pressed" << keyPressed->position.x << std::endl;
                 game_table.on_click({keyPressed->position.x, keyPressed->position.y});
                 
             }
