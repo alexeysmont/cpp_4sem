@@ -5,7 +5,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(sf::Vector2u(900, 700)), "Pong");
+    sf::RenderWindow window(sf::VideoMode(sf::Vector2u(900, 700)), "Gems");
     GameTable game_table(12, 9);
     
     while (window.isOpen())
